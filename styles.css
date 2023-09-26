@@ -1,1 +1,66 @@
 /*  your css code here. If applicable */
+Tidy
+1
+* {
+2
+    box-sizing: border-box;
+3
+  }
+4
+  
+5
+  body{
+6
+    background: #111;
+7
+    display: flex;
+8
+    align-items: center;
+9
+    justify-content: center;
+10
+    height: 100vh;
+11
+    overflow: hidden;
+12
+    margin: 0;
+13
+  }
+14
+  .container{
+15
+    display: flex;
+16
+    align-items: center;
+17
+    justify-content: center;
+18
+    flex-wrap: wrap;
+19
+    max-width: 800px;
+20
+  }
+21
+  .square{
+22
+    background-color: #1d1d1d;
+23
+    box-shadow: 0 0 2px #000;
+24
+    height: 16px;
+25
+    width: 16px;
+26
+    margin: 2px;
+27
+    transition: 5s ease;
+28
+  }
+29
+  
+30
+  .square:hover{
+31
+    transition-duration: 0s;
+32
+  }
